@@ -1,6 +1,12 @@
 import { Palette } from "@mui/material/styles";
 
 export const palette: Partial<Palette> = {
+  primary: {
+    main: "#7C6E89",
+    dark: "#2E2D4D",
+    light: "#7C6E89",
+    contrastText: "#fff",
+  },
   text: {
     primary: "#000",
     secondary: "#7C6E89",
