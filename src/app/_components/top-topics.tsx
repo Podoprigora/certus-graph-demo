@@ -10,7 +10,6 @@ import IconButton from "@mui/material/IconButton";
 import MoreVertRoundedIcon from "@mui/icons-material/MoreVertRounded";
 
 import { ITopic, TopicsService } from "~/services";
-import { Button } from "@mui/material";
 import { SelectField } from "~/components/select-field";
 
 const TopTopicsChart = nextDynamic(
