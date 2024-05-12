@@ -1,95 +1,43 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import { Metadata } from "next";
+import Paper from "@mui/material/Paper";
+import Typography from "@mui/material/Typography";
+
+export const metadata: Metadata = {
+  title: "Certus Graph Demo",
+};
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <Paper>
+      <Typography variant="subtitle1">Top Topics</Typography>
+      <Typography variant="subtitle2" color="text.secondary">
+        How Many Clients Are Discussing Topics
+      </Typography>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      <Typography>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, libero aperiam facere tempora deserunt id
+        consequuntur delectus sed sequi ducimus pariatur, animi voluptate molestiae accusamus autem illum ex, esse
+        similique. Quasi tempore earum nihil iusto fuga laudantium officiis dicta minus repudiandae architecto tempora
+        ducimus ratione reiciendis possimus labore laborum nisi, sapiente vitae quas voluptate veritatis dolorum!
+        Dolorum eligendi similique repudiandae? Voluptatibus incidunt assumenda reprehenderit voluptas sapiente
+        similique! Veniam ipsa deleniti assumenda eaque amet repellat, iure doloribus distinctio, necessitatibus quae
+        mollitia reprehenderit? Ad reiciendis provident amet alias qui fuga pariatur voluptate! Sed, asperiores vel.
+        Animi quo dolorem, facere eveniet vitae praesentium eaque eligendi facilis error eius quos sequi asperiores
+        sapiente voluptatem rerum distinctio nulla laborum placeat quaerat sed aperiam maiores iure? Maxime atque
+        impedit aspernatur nemo earum modi sint voluptatem odit quam pariatur enim expedita blanditiis perspiciatis
+        adipisci numquam suscipit hic, assumenda facere! Sint officiis aperiam rerum doloribus, sequi aut
+        exercitationem. Assumenda laborum, natus tempore architecto sunt necessitatibus itaque optio ex dolore
+        perspiciatis officia adipisci, quia aut mollitia, quaerat consequatur ut! Nostrum veritatis iste velit quidem
+        molestiae sunt doloremque ipsam praesentium. Laudantium asperiores non dolor eum exercitationem dolores quia
+        perferendis, facere ratione voluptas veritatis quo similique corrupti dolorem, iure hic delectus, nihil atque
+        aliquam itaque blanditiis. Eius natus maxime rerum deserunt? Saepe dignissimos dolores nemo ducimus similique
+        non nostrum at voluptatibus deserunt eaque nulla velit eveniet voluptates veritatis, ad alias debitis
+        praesentium harum error beatae iusto sint. Eaque voluptatum ipsum repellat? Deserunt magni perspiciatis
+        quibusdam aspernatur dignissimos! Minima sit quis rem sint tempore culpa doloribus voluptates enim deserunt
+        temporibus corrupti, hic in quod consequuntur aliquid odit libero nihil! Ducimus, ab autem. Illum tenetur
+        accusamus aliquam. Rerum, id nulla! Mollitia dicta similique officiis consectetur maxime cum dolorum iure fugiat
+        quam dolor. Ipsam molestias laborum modi impedit quisquam? Eveniet, doloribus tempore. Doloremque, illo?
+      </Typography>
+    </Paper>
   );
 }
