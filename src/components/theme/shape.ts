@@ -1,5 +1,20 @@
-import { ShapeOptions } from "@mui/system";
+import { Theme } from "@mui/material/styles";
 
-export const shape: ShapeOptions = {
+declare module "@mui/material/styles" {
+  interface ShapeOptions {
+    borderRadiusSmall: number | string;
+    borderRadius: number | string;
+  }
+
+  interface Theme {
+    shape: ShapeOptions;
+  }
+
+  interface ThemeOptions {
+    shape?: ShapeOptions;
+  }
+}
+export const shape: Theme["shape"] = {
   borderRadius: 5,
+  borderRadiusSmall: 3,
 };

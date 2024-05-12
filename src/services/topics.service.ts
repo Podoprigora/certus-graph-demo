@@ -20,16 +20,16 @@ const topTopicSchema: z.ZodType<ITopTopic> = z.object({
   ),
 });
 
-const getTopItemsByLabel = async (label: number) => {
+const getTopItemsByLabel = async (label: number | string) => {
   const response = await fetch(getApiPath(`label/${label}`));
   const json = await response.json();
   const result = await topTopicSchema.spa(json);
 
   if (result.success) {
-    return result.data;
+    return result.data.labelArr;
   }
 
-  return {};
+  return [];
 };
 
 export const TopicsService = {

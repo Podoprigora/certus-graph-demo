@@ -86,7 +86,7 @@ export const TopTopicsChart = (props: TopTopicsChartProps) => {
     <ApexChartStyles>
       <Mask open={!!loading} size="large" />
       {shouldDisplayEmpty && <Empty title centered />}
-      {shouldDisplayChart && <ApexChart type="bar" options={options} series={series} height="auto" />}
+      {shouldDisplayChart && <ApexChart type="bar" options={options} series={series} height="100%" />}
     </ApexChartStyles>
   );
 };

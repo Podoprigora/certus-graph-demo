@@ -40,8 +40,8 @@ export const useApexChartDefaultOptions = (): ApexOptions => {
       padding: {
         top: 0,
         bottom: 0,
-        left: 4,
-        right: 4,
+        left: 11,
+        right: 0,
       },
     },
 
