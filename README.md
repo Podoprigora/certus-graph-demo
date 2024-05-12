@@ -1,7 +1,6 @@
 ## Certus Graph Demo
 [Preview](https://certus-graph-demo-ma4jom2vhq-lm.a.run.app)
 
-
 ## Getting Started
 
 ```bash
